@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <style>
+      #navBar {
+        background-color: grey;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      .section {
+        height: 600px;
+      }
+      .a {
+        padding-right: 10px;
+      }
+      #navBar a {
+        text-decoration: none;
+        color: red;
+      }
+    </style>
+  </head>
   <body>
-    <nav>
+    <nav id="navBar">
       <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About me">About me</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="#email-me">Email me</a></li>
+        <img
+          src="https://www.kindpng.com/picc/m/255-2558173_github-logo-png-transparent-png.png"
+          alt=""
+          width="30px"
+          height="30px"
+        />
+        <li class="a"><a href="#Home">Home</a></li>
+        <li class="a"><a href="#About me">About me</a></li>
+        <li class="a"><a href="#Projects">Projects</a></li>
+        <li class="a"><a href="#Contact">Contact</a></li>
+        <li class="a"><a href="#email-me">Email me</a></li>
       </ul>
     </nav>
 
-    <section id="Home">
+    <section class="section" id="Home">
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg"
         alt=""
@@ -20,25 +48,22 @@
       />
 
       <h1>This is my portfolio</h1>
-      <iframe width="100%" height="600px"></iframe>
     </section>
 
-    <section id="about-me">
+    <section class="section" id="about-me">
       <p>Hello I am Abit Cmajcanin</p>
       <p>I am a frontend developer with more than one year of experience!</p>
-      <iframe width="100%" height="600px"></iframe>
     </section>
 
-    <section id="projects">
+    <section class="section" id="projects">
       <h2>These are project I did</h2>
       <p>Project 1</p>
       <p>Project 2</p>
       <p>Project 3</p>
       <p>Project 4</p>
-      <iframe width="100%" height="600px"></iframe>
     </section>
 
-    <section id="contact">
+    <section class="section" id="contact">
       <h2>You can contact me on:</h2>
       <a href="https://github.com/DausPx" target="_Blank">
         <img
@@ -48,9 +73,8 @@
           height="30px"
         />
       </a>
-      <iframe width="100%" height="600px"></iframe>
     </section>
-    <section id="email-me">
+    <section class="section" id="email-me">
       <h2>Please contact mee for job offers</h2>
       <label for="title">Title</label>
       <input type="text" id="Text" />
@@ -71,7 +95,7 @@
       <input type="submit" />
       <br />
     </section>
-    <select name="select" id="select">
+    <select class="section" name="select" id="select">
       <option value="A">A</option>
       <option value="B">B</option>
       <option value="C">C</option>
