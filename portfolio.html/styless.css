@@ -1,0 +1,29 @@
+#navBar {
+  background-color: grey;
+}
+#home,
+h1 {
+  text-emphasis-color: red;
+}
+li {
+  display: inline-block;
+}
+
+.section {
+  height: 600px;
+}
+.a {
+  padding-right: 10px;
+}
+#navBar a {
+  text-decoration: none;
+  color: red;
+}
+#about-me p {
+  font-weight: 300;
+  text-align: justify;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 5px black;
+  border: 1px solid blue;
+  border-radius: 50px;
+}
